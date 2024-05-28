@@ -38,23 +38,14 @@ public class FamilyTree {
         familyList.add(human);
     }
 
-    public Human findHumanByName(String nameHuman) {
+    public Human findHumanById(int nameHuman) {
         for (Human human: familyList) {
-            if(human.getFirstname().equalsIgnoreCase(nameHuman)) {
+            if(Objects.equals(human.getId(), nameHuman)) {
                 return human;
             }
         }
         return null;
     }
-
-//    public Human findHumanById(int nameHuman) {
-//        for (Human human: familyList) {
-//            if(Objects.equals(human.getId(), nameHuman)) {
-//                return human;
-//            }
-//        }
-//        return null;
-//    }
 
     public Human getHuman(int id) {
         if (humans.containsKey(id) == false)
