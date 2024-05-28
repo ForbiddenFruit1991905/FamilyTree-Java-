@@ -1,14 +1,12 @@
-package HW.familyTree.methods;
+package HW.familyTree.FamilyTree.methods;
 
-import HW.familyTree.HumanInfo.Human;
-import HW.familyTree.enums.Gender;
-import HW.familyTree.enums.Relation;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
+import HW.familyTree.FamilyTree.HumanInfo.Human;
+import HW.familyTree.FamilyTree.enums.Gender;
+import HW.familyTree.FamilyTree.enums.Relation;
 
+
+import java.util.*;
 
 
 public class FamilyTree {
@@ -20,7 +18,7 @@ public class FamilyTree {
     private HashMap<Integer, Human> humans;
     private static Human human;
     private List<Human> familyList;
-
+    private  Relation relation;
     public FamilyTree() {
         this.familyList = new ArrayList<>();
     }
@@ -48,6 +46,15 @@ public class FamilyTree {
         }
         return null;
     }
+
+//    public Human findHumanById(int nameHuman) {
+//        for (Human human: familyList) {
+//            if(Objects.equals(human.getId(), nameHuman)) {
+//                return human;
+//            }
+//        }
+//        return null;
+//    }
 
     public Human getHuman(int id) {
         if (humans.containsKey(id) == false)

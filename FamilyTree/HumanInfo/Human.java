@@ -1,7 +1,9 @@
-package HW.familyTree.HumanInfo;
+package HW.familyTree.FamilyTree.HumanInfo;
 
-import HW.familyTree.enums.Gender;
-import HW.familyTree.enums.Relation;
+import HW.familyTree.FamilyTree.enums.Gender;
+import HW.familyTree.FamilyTree.enums.Relation;
+
+
 
 public class Human {
     // ссылки на объект

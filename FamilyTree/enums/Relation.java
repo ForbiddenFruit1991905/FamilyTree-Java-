@@ -1,9 +1,9 @@
-package HW.familyTree.enums;
+package HW.familyTree.FamilyTree.enums;
 
-import HW.familyTree.HumanInfo.Human;
+
 
 public class Relation {
-    public static Human Child;
+
 
     public enum Type {
         Spouses,

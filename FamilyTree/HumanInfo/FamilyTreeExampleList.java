@@ -1,8 +1,12 @@
-package HW.familyTree.HumanInfo;
+package HW.familyTree.FamilyTree.HumanInfo;
 
-import HW.familyTree.enums.Gender;
-import HW.familyTree.enums.Relation;
-import HW.familyTree.methods.FamilyTree;
+import HW.familyTree.FamilyTree.enums.Gender;
+import HW.familyTree.FamilyTree.enums.Relation;
+import HW.familyTree.FamilyTree.methods.FamilyTree;
+
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class FamilyTreeExampleList {
     private FamilyTree familyTree;
@@ -12,7 +16,6 @@ public class FamilyTreeExampleList {
     }
 
     public void getFamilyTreeList() {
-        Object Type;
         Human person1 = new Human(1, "Firstname_1_1", "Middlename_1_1", "Lastname_1", Gender.Male, Relation.Type.Spouses, 1);
         familyTree.addHuman(person1);
         Human person2 = new Human(2, "Firstname_1_2", "Middlename_1_2", "Lastname_1", Gender.Female, Relation.Type.Spouses, 1);
@@ -36,7 +39,16 @@ public class FamilyTreeExampleList {
     }
 
     public void printFamilyTree() {
-
             System.out.println(familyTree);
     }
+
+//    public List<Human> FindParents(int id) {
+//        List<Human> res = new ArrayList<>();
+//        for (Relation relation : familyTree.selectRelation()) {
+//            if (relation.getId1() == id && relation.Relation() == Relation.Type.Child)
+//                if(familyTree.getHuman(relation.getId2()) != null)
+//                    res.add(familyTree.getHuman(relation.getId2()));
+//        }
+//        return res;
+//    }
 }
