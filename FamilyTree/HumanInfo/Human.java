@@ -3,15 +3,11 @@ package HW.familyTree.FamilyTree.HumanInfo;
 import HW.familyTree.FamilyTree.enums.Gender;
 import HW.familyTree.FamilyTree.enums.Relation;
 
-
-
 public class Human {
-    // ссылки на объект
+
     private String firstname;
     private String lastname;
     private String middlename;
-//    private List<Human> children;
-//    private LocalDate birthDate;
     private Gender gender;
     private Relation.Type relation;
     private int id;
@@ -30,7 +26,6 @@ public class Human {
         this.relation = relation;
         this.id_depth = id_depth;
     }
-
 
     public int getId() {
         return id;

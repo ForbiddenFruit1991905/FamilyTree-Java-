@@ -6,11 +6,7 @@ import HW.familyTree.FamilyTree.enums.Relation;
 import java.util.*;
 
 public class FamilyTree {
-    /*
-    список членов семьи ("контейнер" для людей)
-    и
-    методы, связанные с этип списком (добавление, поиск, вывод всего списка и т.д.)
-     */
+
     private HashMap<Integer, Human> humans;
     private static Human human;
     private List<Human> familyList;
@@ -35,10 +31,10 @@ public class FamilyTree {
         humans.put(count, human);
         return human;
     }
-
-    public Human findHumanById(int nameHuman) {
+//    Поиск человека по ID
+    public Human findHumanById(int idHuman) {
         for (Human human: humans.values()) {
-            if(Objects.equals(human.getId(), nameHuman)) {
+            if(Objects.equals(human.getId(), idHuman)) {
                 return human;
             }
         }

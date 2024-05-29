@@ -1,14 +1,9 @@
 package HW.familyTree.FamilyTree.methods;
 
-
 import java.util.Scanner;
-
 import HW.familyTree.FamilyTree.HumanInfo.FamilyTreeExampleList;
-import HW.familyTree.FamilyTree.HumanInfo.Human;
 import HW.familyTree.FamilyTree.enums.Gender;
 import HW.familyTree.FamilyTree.enums.Relation;
-
-
 
 public class Main {private static FamilyTree familyTree;
 
