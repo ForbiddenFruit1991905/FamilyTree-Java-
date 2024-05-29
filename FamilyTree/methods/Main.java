@@ -40,11 +40,11 @@ public class Main {private static FamilyTree familyTree;
                 familyTree.addHuman(id, firstname, middlename, lastname, gender, relation, id_depth);
             } else if (command.equals("2")) {
                 familyTreeList.printFamilyTree();
-            } else if (command.equals("4")) {
+            } else if (command.equals("3")) {
                 System.out.println("Введите ID: ");
                 int input = scanner.nextInt();
                 System.out.println(familyTree.findHumanById(input));
-            } else if (command.equals("3")) {
+            } else if (command.equals("4")) {
                 System.out.println("Введите ID для удаления: ");
                 int del_human = scanner.nextInt();
                 familyTree.removeHuman(del_human);
@@ -63,8 +63,8 @@ public class Main {private static FamilyTree familyTree;
         System.out.println("Выберите из списка необходимую комманду: ");
         System.out.println("1 - добавить запись в семейное древо");
         System.out.println("2 - показать весь список");
-        System.out.println("3 - удалить запись из семейного древа");
-        System.out.println("4 - найти человека по ID");
+        System.out.println("3 - найти человека по ID");
+        System.out.println("4 - удалить запись из семейного древа");
         System.out.println("quit - выход из приложения");
     }
 }
