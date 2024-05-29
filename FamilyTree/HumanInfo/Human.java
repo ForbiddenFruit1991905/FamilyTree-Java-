@@ -11,7 +11,8 @@ public class Human {
     private Gender gender;
     private Relation.Type relation;
     private int id;
-    private int id_depth; // уровень "глубины" дерева (бабушка, дедушка, мама, папа, дочь, сын)
+    private int id_depth; /* уровень "глубины" дерева (бабушка, дедушка, мама, папа, дочь, сын) -
+    на доработке, не понимаю как это увязать со связями семейными(Relation) */
 
     public Human(Gender gender) {
         this.gender = gender;
