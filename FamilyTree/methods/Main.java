@@ -18,7 +18,8 @@ public class Main {private static FamilyTree familyTree;
             String command = scanner.nextLine();
             if (command.equals("1")) {
                 System.out.println("Укажите id:");
-                int id = scanner.nextInt();
+//                int id = scanner.nextInt();
+                String id = String.valueOf(Integer.parseInt(scanner.nextLine()));
                 System.out.println("Укажете имя:");
                 String firstname = scanner.nextLine();
                 System.out.println("Укажете отчество:");
@@ -31,8 +32,8 @@ public class Main {private static FamilyTree familyTree;
                 Relation.Type relation = Relation.Type.valueOf(scanner.nextLine());
                 System.out.println("Укажите уникальный id 'глубины' дерева:");
                 int id_depth = scanner.nextInt();
-                System.out.println("Запись внесена в семейное древо ---> " + " id: " + id + ", имя: " + firstname + ", отчество: " + middlename + ", пол: " + gender + ", семейная связь: " + relation + ", глубина древа: " + id_depth);
-                familyTree.addHuman(id, firstname, middlename, lastname, gender, relation, id_depth);
+                System.out.println("Запись внесена в семейное древо ---> " + " id: " + id + ", имя: " + firstname + ", отчество: " + middlename + ", фамилия: " + lastname + ", пол: " + gender + ", семейная связь: " + relation + ", глубина древа: " + id_depth);
+                familyTree.addHuman(Integer.parseInt(id), firstname, middlename, lastname, gender, relation, id_depth);
             } else if (command.equals("2")) {
                 familyTreeList.printFamilyTree();
             } else if (command.equals("3")) {

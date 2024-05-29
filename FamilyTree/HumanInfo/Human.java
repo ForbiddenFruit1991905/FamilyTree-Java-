@@ -54,6 +54,6 @@ public class Human {
 
     @Override
     public String toString() {
-        return " id: " + id + ", имя: " + firstname + ", отчество: " + middlename + ", пол: " + gender + ", семейная связь: " + relation + ", глубина древа: " + id_depth /* + ", день рождения: " + birthDate */;
+        return " id: " + id + ", имя: " + firstname + ", отчество: " + middlename + ", фамилия: " + lastname + ", пол: " + gender + ", семейная связь: " + relation + ", глубина древа: " + id_depth /* + ", день рождения: " + birthDate */;
     }
 }
