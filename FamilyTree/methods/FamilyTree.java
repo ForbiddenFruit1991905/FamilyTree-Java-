@@ -1,14 +1,31 @@
 package HW.familyTree.FamilyTree.methods;
 
 import HW.familyTree.FamilyTree.HumanInfo.Human;
+
+import java.io.*;
 import java.util.*;
 
-public class FamilyTree {
+public class FamilyTree implements Serializable {
+
     private Human human;
     private List<Human> familyList;
 
     public FamilyTree() {
         this.familyList = new ArrayList<>();
+    }
+
+    //    Сохранение дерева в файл
+    public void saveToFile(String filename) throws IOException {
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filename))) {
+            oos.writeObject(this);
+        }
+    }
+
+    //    Загрузка дерева из файла
+    public static FamilyTree loadFromFile(String filename) throws IOException, ClassNotFoundException {
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filename))) {
+            return (FamilyTree) ois.readObject();
+        }
     }
 
 //    Запись о новом члене семьи

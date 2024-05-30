@@ -3,11 +3,12 @@ package HW.familyTree.FamilyTree.HumanInfo;
 import HW.familyTree.FamilyTree.enums.Gender;
 import HW.familyTree.FamilyTree.enums.Relation;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Human {
-
+public class Human implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String firstname;
     private String lastname;
     private String middlename;
