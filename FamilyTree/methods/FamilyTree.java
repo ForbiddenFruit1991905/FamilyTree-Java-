@@ -23,11 +23,11 @@ public class FamilyTree {
                           String middlename,
                           String lastname,
                           Gender gender,
-                          Relation. Type relation,
-                          int id_depth) {
+                          Relation. Type relation
+                          ) {
         while (humans.containsKey(count))
         count++;
-        Human human = new Human(count, firstname, middlename, lastname, gender, relation, id_depth);
+        Human human = new Human(count, firstname, middlename, lastname, gender, relation);
         humans.put(count, human);
         return human;
     }

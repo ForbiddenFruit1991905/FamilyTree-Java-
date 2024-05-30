@@ -5,7 +5,8 @@ import HW.familyTree.FamilyTree.HumanInfo.FamilyTreeExampleList;
 import HW.familyTree.FamilyTree.enums.Gender;
 import HW.familyTree.FamilyTree.enums.Relation;
 
-public class Main {private static FamilyTree familyTree;
+public class Main {
+    private FamilyTree familyTree;
 
     public static void main(String[] args) {
         FamilyTree familyTree = new FamilyTree();
@@ -30,10 +31,8 @@ public class Main {private static FamilyTree familyTree;
                 Gender gender = Gender.valueOf(scanner.nextLine());
                 System.out.println("Укажите тип родственной связи Spouses/Child/Divorced:");
                 Relation.Type relation = Relation.Type.valueOf(scanner.nextLine());
-                System.out.println("Укажите уникальный id 'глубины' дерева:");
-                int id_depth = scanner.nextInt();
-                System.out.println("Запись внесена в семейное древо ---> " + " id: " + id + ", имя: " + firstname + ", отчество: " + middlename + ", фамилия: " + lastname + ", пол: " + gender + ", семейная связь: " + relation + ", глубина древа: " + id_depth);
-                familyTree.addHuman(Integer.parseInt(id), firstname, middlename, lastname, gender, relation, id_depth);
+                System.out.println("Запись внесена в семейное древо ---> " + " id: " + id + ", имя: " + firstname + ", отчество: " + middlename + ", фамилия: " + lastname + ", пол: " + gender + ", семейная связь: " + relation);
+                familyTree.addHuman(Integer.parseInt(id), firstname, middlename, lastname, gender, relation);
             } else if (command.equals("2")) {
                 familyTreeList.printFamilyTree();
             } else if (command.equals("3")) {
