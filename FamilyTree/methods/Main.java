@@ -2,11 +2,11 @@ package HW.familyTree.FamilyTree.methods;
 
 import java.util.Scanner;
 import HW.familyTree.FamilyTree.HumanInfo.FamilyTreeExampleList;
+import HW.familyTree.FamilyTree.HumanInfo.Human;
 import HW.familyTree.FamilyTree.enums.Gender;
 import HW.familyTree.FamilyTree.enums.Relation;
 
 public class Main {
-    private FamilyTree familyTree;
 
     public static void main(String[] args) {
         FamilyTree familyTree = new FamilyTree();
@@ -19,7 +19,6 @@ public class Main {
             String command = scanner.nextLine();
             if (command.equals("1")) {
                 System.out.println("Укажите id:");
-//                int id = scanner.nextInt();
                 String id = String.valueOf(Integer.parseInt(scanner.nextLine()));
                 System.out.println("Укажете имя:");
                 String firstname = scanner.nextLine();
@@ -32,7 +31,7 @@ public class Main {
                 System.out.println("Укажите тип родственной связи Spouses/Child/Divorced:");
                 Relation.Type relation = Relation.Type.valueOf(scanner.nextLine());
                 System.out.println("Запись внесена в семейное древо ---> " + " id: " + id + ", имя: " + firstname + ", отчество: " + middlename + ", фамилия: " + lastname + ", пол: " + gender + ", семейная связь: " + relation);
-                familyTree.addHuman(Integer.parseInt(id), firstname, middlename, lastname, gender, relation);
+                familyTree.addHuman(new Human(Integer.parseInt(id), firstname, middlename, lastname, gender, relation));
             } else if (command.equals("2")) {
                 familyTreeList.printFamilyTree();
             } else if (command.equals("3")) {

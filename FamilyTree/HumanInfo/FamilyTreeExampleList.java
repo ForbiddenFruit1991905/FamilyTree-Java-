@@ -4,6 +4,9 @@ import HW.familyTree.FamilyTree.enums.Gender;
 import HW.familyTree.FamilyTree.enums.Relation;
 import HW.familyTree.FamilyTree.methods.FamilyTree;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FamilyTreeExampleList {
     private FamilyTree familyTree;
 
@@ -12,16 +15,32 @@ public class FamilyTreeExampleList {
     }
 
     public void getFamilyTreeList() {
-        Human person1 = familyTree.addHuman(1, "Firstname_1_1", "Middlename_1_1", "Lastname_1", Gender.Male, Relation.Type.Spouses);
-        Human person2 = familyTree.addHuman(2, "Firstname_1_2", "Middlename_1_2", "Lastname_1", Gender.Female, Relation.Type.Spouses);
-        Human person3 = familyTree.addHuman(3, "Firstname_2_1", "Middlename_2_1", "Lastname_2", Gender.Female, Relation.Type.Spouses);
-        Human person4 = familyTree.addHuman(4, "Firstname_2_2", "Middlename_2_2", "Lastname_2", Gender.Female, Relation.Type.Spouses);
-        Human person5 = familyTree.addHuman(5, "Firstname_3", "Middlename_3", "Lastname_3", Gender.Female, Relation.Type.Divorced);
-        Human person6 = familyTree.addHuman(6, "Firstname_4", "Middlename_1_1", "Lastname_1", Gender.Female, Relation.Type.Child);
-        Human person7 = familyTree.addHuman(7, "Firstname_5", "Middlename_1_1", "Lastname_1", Gender.Female, Relation.Type.Child);
-        Human person8 = familyTree.addHuman(8, "Firstname_6", "Middlename_1_1", "Lastname_1", Gender.Male, Relation.Type.Child);
-        Human person9 = familyTree.addHuman(9, "Firstname_7", "Middlename_2_1", "Lastname_2", Gender.Male, Relation.Type.Child);
-        Human person10 = familyTree.addHuman(10, "Firstname_8", "Middlename_3", "Lastname_3", Gender.Male, Relation.Type.Child);
+        Human person1 = new Human(1, "Firstname_1_1", "Middlename_1_1", "Lastname_1", Gender.Male, Relation.Type.Spouses);
+        familyTree.addHuman(person1 );
+        Human person2 = new Human(2, "Firstname_1_2", "Middlename_1_2", "Lastname_1", Gender.Female, Relation.Type.Spouses);
+        familyTree.addHuman(person2);
+        Human person3 = new Human(3, "Firstname_2_1", "Middlename_2_1", "Lastname_2", Gender.Male, Relation.Type.Spouses);
+        familyTree.addHuman(person3);
+        Human person4 = new Human(4, "Firstname_2_2", "Middlename_2_2", "Lastname_2", Gender.Female, Relation.Type.Spouses);
+        familyTree.addHuman(person4);
+        Human person5 = new Human(5, "Firstname_3", "Middlename_3", "Lastname_3", Gender.Male, Relation.Type.Divorced);
+        familyTree.addHuman(person5);
+        Human person6 = new Human(6, "Firstname_4", "Middlename_1_1", "Lastname_1", Gender.Female, Relation.Type.Child);
+        familyTree.addHuman(person6);
+        Human person7 = new Human(7, "Firstname_5", "Middlename_1_1", "Lastname_1", Gender.Female, Relation.Type.Child);
+        familyTree.addHuman(person7);
+        Human person8 = new Human(8, "Firstname_6", "Middlename_1_1", "Lastname_1", Gender.Male, Relation.Type.Child);
+        familyTree.addHuman(person8);
+        Human person9 = new Human(9, "Firstname_7", "Middlename_2_1", "Lastname_2", Gender.Male, Relation.Type.Child);
+        familyTree.addHuman(person9);
+        Human person10 = new Human(10, "Firstname_8", "Middlename_3", "Lastname_3", Gender.Male, Relation.Type.Child);
+        familyTree.addHuman(person10);
+
+        person2.addKinder(person6);
+        person4.addKinder(person7);
+        person4.addKinder(person8);
+        person4.addKinder(person9);
+        person6.addKinder(person10);
     }
 
     public void printFamilyTree() {

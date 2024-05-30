@@ -1,39 +1,24 @@
 package HW.familyTree.FamilyTree.methods;
 
 import HW.familyTree.FamilyTree.HumanInfo.Human;
-import HW.familyTree.FamilyTree.enums.Gender;
-import HW.familyTree.FamilyTree.enums.Relation;
 import java.util.*;
 
 public class FamilyTree {
-
-    private HashMap<Integer, Human> humans;
     private Human human;
     private List<Human> familyList;
-    private  Relation relation;
-    private int count = 1;
 
     public FamilyTree() {
-        humans = new HashMap<>();
         this.familyList = new ArrayList<>();
     }
 
-    public Human addHuman(int id,
-                          String firstname,
-                          String middlename,
-                          String lastname,
-                          Gender gender,
-                          Relation. Type relation
-                          ) {
-        while (humans.containsKey(count))
-        count++;
-        Human human = new Human(count, firstname, middlename, lastname, gender, relation);
-        humans.put(count, human);
-        return human;
+//    Запись о новом члене семьи
+    public void addHuman(Human human) {
+        familyList.add(human);
     }
+
 //    Поиск человека по ID
     public Human findHumanById(int idHuman) {
-        for (Human human: humans.values()) {
+        for (Human human: familyList) {
             if(Objects.equals(human.getId(), idHuman)) {
                 return human;
             }
@@ -43,20 +28,20 @@ public class FamilyTree {
 
 //    Удаление записи в древе
     public Human removeHuman(int id) {
-        humans.remove(id);
+        familyList.remove(id-1);
         return human;
     }
 
 //    Возвращаем список персон
-    public HashMap<Integer, Human> getHumans() {
-        return humans;
+    public List<Human> getFamilyList() {
+        return familyList;
     }
 
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Список членов семьи: \n");
-        for (Human human: humans.values()) {
+        for (Human human: familyList) {
             stringBuilder.append(human);
             stringBuilder.append("\n");
         }

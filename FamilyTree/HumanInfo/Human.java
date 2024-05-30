@@ -3,6 +3,9 @@ package HW.familyTree.FamilyTree.HumanInfo;
 import HW.familyTree.FamilyTree.enums.Gender;
 import HW.familyTree.FamilyTree.enums.Relation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Human {
 
     private String firstname;
@@ -11,6 +14,7 @@ public class Human {
     private Gender gender;
     private Relation.Type relation;
     private int id;
+    private List<Human> kinder;
 
     public Human(Gender gender) {
         this.gender = gender;
@@ -23,6 +27,11 @@ public class Human {
         this.lastname = lastname;
         this.gender = gender;
         this.relation = relation;
+        this.kinder = new ArrayList<>();
+    }
+
+    public void addKinder(Human child) {
+        kinder.add(child);
     }
 
     public int getId() {
@@ -43,6 +52,10 @@ public class Human {
 
     public Gender getGender() {
         return gender;
+    }
+
+    public List<Human> getKinder() {
+        return kinder;
     }
 
     @Override
