@@ -8,7 +8,7 @@ import java.util.*;
 public class FamilyTree {
 
     private HashMap<Integer, Human> humans;
-    private static Human human;
+    private Human human;
     private List<Human> familyList;
     private  Relation relation;
     private int count = 1;
