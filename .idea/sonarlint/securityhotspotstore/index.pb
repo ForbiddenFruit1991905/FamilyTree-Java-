@@ -1,6 +1,4 @@
 
-_
-/FamilyTree/HumanInfo/FamilyTreeExampleList.java,9\6\960a5a5c8c88777b9c7ccec3e2a124da6d009832
 R
 "FamilyTree/methods/FamilyTree.java,c\c\cc882fceae75a08534fa6229f8694cc6fd0c74fd
 O
@@ -13,16 +11,12 @@ L
 FamilyTree/methods/Main.java,9\6\96d1ea640d388317fb6993e2b58f594eeea06061
 8
 tree.txt,1\a\1a68e16c846e9bf39d6f0a21ee634ece38da843f
-K
-FamilyTree/FileHandler.java,f\1\f146adaa315e32b387ef95021280657ce6d22e90
 >
 FamilyTree.dat,4\8\487e89e96afff03d1756927b72309ea88d2ba892
 S
 #FamilyTree/methods/FileHandler.java,6\8\68937d3edb3161ca6f55942abd16205f3d707f8b
 Å
 Q.idea/sonarlint/securityhotspotstore/c/c/cc882fceae75a08534fa6229f8694cc6fd0c74fd,5\1\51940697d9a56c5c379140471c18009db2ca92c5
-Å
-Q.idea/sonarlint/securityhotspotstore/9/6/960a5a5c8c88777b9c7ccec3e2a124da6d009832,3\0\301309560198df22511967c68361768242a145a8
 6
 HW.iml,e\9\e9ea112b34e2a157b6f9d9a28655b94f52a21601
 L
@@ -47,5 +41,3 @@ G.idea/sonarlint/issuestore/4/8/487e89e96afff03d1756927b72309ea88d2ba892,6\9\69
 Q.idea/sonarlint/securityhotspotstore/4/8/487e89e96afff03d1756927b72309ea88d2ba892,4\6\46e19742de8307e02b694526c2c858f6d82c99f7
 Å
 Q.idea/sonarlint/securityhotspotstore/9/6/96d1ea640d388317fb6993e2b58f594eeea06061,8\5\8532956a0583046285a259e8a557087415a3d87e
-Å
-Q.idea/sonarlint/securityhotspotstore/f/1/f146adaa315e32b387ef95021280657ce6d22e90,9\3\9352f113ed0110d021efd52ff9b439ed3820d35e

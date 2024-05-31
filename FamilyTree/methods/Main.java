@@ -1,8 +1,6 @@
 package HW.familyTree.FamilyTree.methods;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import HW.familyTree.FamilyTree.HumanInfo.Human;
 import HW.familyTree.FamilyTree.enums.Gender;
@@ -102,24 +100,6 @@ public class Main {
             }
         }
         scanner.close();
-
-////           Сохранение дерева в файл
-//        try {
-//            familyTree.saveToFile("tree.txt");
-//            System.out.println("Семейное древо сохранено.txt");
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//
-////        Загрузка дерева из файла
-//        try {
-//            FamilyTree loadedFamilyTree = FamilyTree.loadFromFile("tree.txt");
-//            System.out.println("Произведена выгрузка семейного древа \n" + loadedFamilyTree);
-//        } catch (IOException | ClassNotFoundException e) {
-//            e.printStackTrace();
-//        }
-
-
     }
 
     private static void getCommands() {
