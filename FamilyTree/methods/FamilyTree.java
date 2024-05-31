@@ -51,7 +51,7 @@ public class FamilyTree implements Serializable {
 
 //    Возвращаем список персон
     public List<Human> getFamilyList() {
-        return familyList;
+        return (List<Human>) human;
     }
 
     @Override

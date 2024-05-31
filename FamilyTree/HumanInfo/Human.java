@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Human implements Serializable {
-    private static final long serialVersionUID = 1L;
+
     private String firstname;
     private String lastname;
     private String middlename;
