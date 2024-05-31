@@ -1,0 +1,43 @@
+
+“
+java:S1192"KDefine a constant instead of duplicating this literal "Lastname_2" 3 times.(­·—’ÿÿÿÿÿ8âáÑßü1J$cdcd6a12-2b4c-4c2c-921e-911d93a6e6d3
+—
+java:S1192"ODefine a constant instead of duplicating this literal "Middlename_1_1" 4 times.(Œ³«­ùÿÿÿÿ8âáÑßü1J$af2a2f27-945d-40b8-9337-ef645815914b
+“
+java:S1192"KDefine a constant instead of duplicating this literal "Lastname_1" 5 times.(Œ³«­ùÿÿÿÿ8âáÑßü1J$f287718b-846e-4939-af58-017f6303a4fb
+‘
+java:S1192,"IDefine a constant instead of duplicating this literal "tree.txt" 4 times.(ï¸ùÿÿÿÿ8¶Íåßü1J$85ac4b3b-eb1d-414f-9abc-3484d9b84f6c
+“	java:S117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶áâã8¸Íåßü1J$70acbec5-bc45-4358-af8a-f189d41e7602
+õ
+java:S1598"±This file "Main.java" should be located in "HW\familyTree\FamilyTree\methods" directory, not in "D:\GB\I Ñ‡ĞµÑ‚Ğ²ĞµÑ€Ñ‚ÑŒ\ĞĞĞŸ Ğ½Ğ° Ğ¿Ñ€Ğ¸Ğ¼ĞµÑ€Ğµ JAVA\HW\FamilyTree\methods".(²Ê±ö8åáÑßü1J$5499a4e5-99da-49b4-b83f-d6a857d43d11
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²Ê±ö8çáÑßü1J$05bb77e7-5aea-4cfe-9156-990d91ee599d
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(÷ëééûÿÿÿÿ8Îåßü1J$a044ca93-ab21-4cff-9dce-002eab358150
+r	java:S106-"+Replace this use of System.out by a logger.(İ†Í£ùÿÿÿÿ8ÑâÑßü1J$9a5ca120-230c-4ce8-9a48-1d5289018974
+m	java:S1063"+Replace this use of System.out by a logger.(åğ©Á8ÑâÑßü1J$f18799b8-a0ef-4878-a092-5e9d88f0beea
+r	java:S106="+Replace this use of System.out by a logger.(İ·ÃÄÿÿÿÿÿ8é‹áßü1J$4e1b72ce-d785-4d1f-8cb4-232ab858542a
+m	java:S106?"+Replace this use of System.out by a logger.(Ê£”¢8ë‹áßü1J$a5abebdc-5476-480c-aee8-bf45e9d3960e
+m	java:S106A"+Replace this use of System.out by a logger.(ğ™ò¸8í‹áßü1J$d97c7bbf-e800-43f8-a09d-b055e82697d6
+m	java:S106C"+Replace this use of System.out by a logger.(çå¿ê8î‹áßü1J$21bd528e-a780-4bbc-86e6-5e9b4567558e
+r	java:S106E"+Replace this use of System.out by a logger.(è ÊÁıÿÿÿÿ8ğ‹áßü1J$8d635797-7352-4389-a561-57ca4d177c96
+r	java:S106G"+Replace this use of System.out by a logger.(Ùëÿÿÿÿÿ8ò‹áßü1J$3a08b0fc-2818-4203-ab40-ff286da4562e
+m	java:S106I"+Replace this use of System.out by a logger.(ĞÅı“8œÎåßü1J$9f696335-d9bd-4eb2-a79a-f3649b78abec
+r	java:S106M"+Replace this use of System.out by a logger.(İ†Í£ùÿÿÿÿ8Îåßü1J$5d4347b6-a9ce-4962-8e01-047564e0f088
+m	java:S106S"+Replace this use of System.out by a logger.(åğ©Á8Îåßü1J$913720b8-bcf7-443c-8288-75c7a47fb581
+r	java:S106X"+Replace this use of System.out by a logger.(Ûñûøÿÿÿÿÿ8Îåßü1J$1fe765c5-6d9f-4a8d-b114-6f0721439af6
+r	java:S106Z"+Replace this use of System.out by a logger.(ˆÏàöüÿÿÿÿ8Îåßü1J$21121ad8-5a0d-4ca6-8aa6-ed7b9be8dfd0
+r	java:S106\"+Replace this use of System.out by a logger.(ĞŠ°‡ûÿÿÿÿ8Îåßü1J$86fa95fc-f3c0-4cfc-b15a-36ba916ab61d
+r	java:S106^"+Replace this use of System.out by a logger.(éÆÆäşÿÿÿÿ8Îåßü1J$104e17e3-2901-4f49-abae-8fdbc91a2e1a
+m	java:S106a"+Replace this use of System.out by a logger.(¢È“˜8ŸÎåßü1J$fad326d2-d45b-46e2-a1de-b196ed7cef9c
+r	java:S106e"+Replace this use of System.out by a logger.(ŠæÙøÿÿÿÿ8ŸÎåßü1J$3bee3371-0ce6-4c40-8e43-87b4dcc3eb3f
+ƒ	java:S125k"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ÔâÑßü1J$e5403dfd-a2e3-4239-94d2-7311647f3dc9
+m	java:S106~"+Replace this use of System.out by a logger.(úŠ¯¦8¡Îåßü1J$9138108a-7076-4ba4-8e75-38f3851867db
+r	java:S106"+Replace this use of System.out by a logger.(·ğŒ×ùÿÿÿÿ8¢Îåßü1J$689ec222-00e6-4a3d-a229-8ddb47953e42
+s	java:S106€"+Replace this use of System.out by a logger.(ÒÌüÿÿÿÿ8¢Îåßü1J$9bdfb314-e350-4906-b669-bc2a729c4a3b
+m	java:S106"+Replace this use of System.out by a logger.(ÜÙ\8¢Îåßü1J$aa9e44d8-0211-4df0-b20e-2e170d095d67
+n	java:S106‚"+Replace this use of System.out by a logger.(ıç÷ì8¢Îåßü1J$4c5ae71b-50fa-47a9-b8b2-f06af5df5c8f
+s	java:S106ƒ"+Replace this use of System.out by a logger.(¢ñ÷‚ÿÿÿÿÿ8¢Îåßü1J$439efcf9-1e37-4117-8952-58134c3f1f32
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8›×æßü1J$144f9c5a-aaeb-4943-a1e0-28689c35e3d7
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8›×æßü1J$48ccf632-7666-4630-b236-d5f56ece6be5

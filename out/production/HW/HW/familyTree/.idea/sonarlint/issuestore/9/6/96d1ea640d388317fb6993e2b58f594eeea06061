@@ -1,0 +1,16 @@
+
+“
+java:S1192>"KDefine a constant instead of duplicating this literal "Lastname_2" 3 times.(­·—’ÿÿÿÿÿ8þåžÝü1J$8762fab4-ba96-4336-a3b7-43f304135b4a
+—
+java:S1192:"ODefine a constant instead of duplicating this literal "Middlename_1_1" 4 times.(Œ³«­ùÿÿÿÿ8ÿåžÝü1J$27f5fc84-ca3a-41eb-ae6b-419d362a4fc5
+“
+java:S1192:"KDefine a constant instead of duplicating this literal "Lastname_1" 5 times.(Œ³«­ùÿÿÿÿ8ÿåžÝü1J$6b6ad930-bf5e-44d2-baa7-a24083f9017d
+õ
+java:S1598"±This file "Main.java" should be located in "HW\familyTree\FamilyTree\methods" directory, not in "D:\GB\I Ñ‡ÐµÑ‚Ð²ÐµÑ€Ñ‚ÑŒ\ÐžÐžÐŸ Ð½Ð° Ð¿Ñ€Ð¸Ð¼ÐµÑ€Ðµ JAVA\HW\FamilyTree\methods".(²Ê±ö8É£ÁÛü1J$a3dcafe4-15bc-4cf7-be88-f74e1ca8b147
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²Ê±ö8Ë£ÁÛü1J$f33e2511-d74c-4f35-ad21-95d29e515bec
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(å—Å¨ýÿÿÿÿ8û¨žÝü1J$1de2b194-41fb-4c36-a739-8a103316f835
+}
+java:S2209W"5Change this instance-reference to a static reference.(ïžŽ¸ùÿÿÿÿ8–æžÝü1J$7e7c5662-3a7b-45e6-8241-c1f7dfd8153a
+m	java:S106X"+Replace this use of System.out by a logger.(­ÈÓ˜8ë‹ªÜü1J$7712e13f-4bba-4b78-a572-406118399a9b
+m	java:S106`"+Replace this use of System.out by a logger.(¬»·˜8ë‹ªÜü1J$e9763eab-0cd7-4736-81df-17a6df8a5d07
+~	java:S125h"<This block of commented-out lines of code should be removed.(éŒäø8Ó…ŸÝü1J$5a7b30ee-23f6-4f6d-ab9d-4b7532797c64
